@@ -51,3 +51,4 @@ Kemudian juga disediakan sebuah Frontend sederhana menggunakan [index.html](/Res
 
 Kemudian anda diminta untuk mendesain arsitektur cloud yang sesuai dengan kebutuhan aplikasi tersebut. Apabila dana maksimal yang diberikan adalah **1 juta rupiah per bulan (65 US$)**
 konfigurasi cloud terbaik seperti apa yang bisa dibuat?
+## Rancangan Arsitektur dan Tabel Harga Spesifikasi VM
