@@ -63,40 +63,40 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 
 ## Langkah-Langkah Pengerjaan
 ### Resources yang dibutuhkan
-1. buat 1 droplet yang bernama frontend
-2. buat 1 droplet yang bernama backend
-3. buat mongo database bernama db-mongodb
-4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP)
+   1. buat 1 droplet yang bernama frontend
+   2. buat 1 droplet yang bernama backend
+   3. buat mongo database bernama db-mongodb
+   4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP)
 ### Langkah-langkah untuk droplet frontend
-1. ssh ke droplet frontend
-2. sudo apt-get update
-3. sudo apt-get install apache2 
-4. cd /var/www/html, ls 
-5. download index.html dan styles.css yang terdapat pada github
-    1. wget -O index.html https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/FE/index.html
-    2. wget -O styles.css https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/FE/styles.css
-6. Di index.html, ganti fetch api menjadi /analyze dan /history
-7. cd /etc/apache2/sites-available
-8. nano 000-default.conf, tambahkan konfigurasi proxy
-9. sudo a2enmod proxy, sudo a2enmod proxy_http
-10. systemctl restart apache2 untuk restart servicenya
-11. tampilan frontend dapat diakses melalui IP address frontend-01 atau IP address load-balancer 
+   1. ssh ke droplet frontend
+   2. sudo apt-get update
+   3. sudo apt-get install apache2 
+   4. cd /var/www/html, ls 
+   5. download index.html dan styles.css yang terdapat pada github
+       1. wget -O index.html https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/FE/index.html
+       2. wget -O styles.css https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/FE/styles.css
+   6. Di index.html, ganti fetch api menjadi /analyze dan /history
+   7. cd /etc/apache2/sites-available
+   8. nano 000-default.conf, tambahkan konfigurasi proxy
+   9. sudo a2enmod proxy, sudo a2enmod proxy_http
+   10. systemctl restart apache2 untuk restart servicenya
+   11. tampilan frontend dapat diakses melalui IP address frontend-01 atau IP address load-balancer 
 ### Langkah-langkah untuk droplet backend
-1. ssh ke droplet backend-02
-2. sudo apt-get update
-3. sudo apt-get install python 3
-4. install dependencies :
-    1. sudo apt-get install python3-pip
-    2. pip install flask
-    3. pip install flask_cors
-    4. pip install textblob
-    5. pip install pymongo
-    6. pip install gunicorn
-5. tambahkan file sentiment-analysis.py sesuai pada github 
-    1. wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py
-6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
-7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app
-8. akses ke IP Address load balancer
+   1. ssh ke droplet backend-02
+   2. sudo apt-get update
+   3. sudo apt-get install python 3
+   4. install dependencies :
+       1. sudo apt-get install python3-pip
+       2. pip install flask
+       3. pip install flask_cors
+       4. pip install textblob
+       5. pip install pymongo
+       6. pip install gunicorn
+   5. tambahkan file sentiment-analysis.py sesuai pada github 
+       1. wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py
+   6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
+   7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app
+   8. akses ke IP Address load balancer
 
 ## Hasil Pengujian Setiap Endpoint
 
