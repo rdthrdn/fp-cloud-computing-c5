@@ -1,4 +1,4 @@
-# Final Project
+<img width="1440" alt="Screenshot 2024-06-29 at 02 26 23" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/3aca9acf-7038-4355-9809-bccc1d7f981a"><img width="1440" alt="Screenshot 2024-06-29 at 02 26 23" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/14cca7dc-408b-4817-b1c4-3850950b135f"># Final Project
 ## Teknologi Komputasi Awan
 ### Kelompok C5
 |Nama|NRP |
@@ -125,6 +125,18 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
    7. run dengan command ```python3 sentiment-analysis.py``` atau bisa juga run secara daemon dengan command ```gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app```, lalu ```ps aux | grep gunicorn``` untuk melihat apakah sudah running atau belum
       <img width="1440" alt="Screenshot 2024-06-29 at 00 54 07" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/1b63c1ec-aab7-4568-b6d7-44d329757ab3">
    8. akses ke IP Address load balancer
+
+## Setup Database
+   1. Install MongoDB compass GUI
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 28 36" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/e89731ef-e798-46da-b892-8020d54a9770">
+   2. Tambahkan koneksi baru menggunakan link database pada connection details
+     <img width="1440" alt="Screenshot 2024-06-29 at 02 10 11" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b94d603e-f621-4715-8598-45a1ada0bf98">
+   3. Database sentiment analysis sudah bisa diakses
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 31 16" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b2568780-c669-4770-ae29-6ac065861aac">
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 32 11" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/2ce8ba6c-0dac-4a6a-9eb7-411f28cec9d1">
+   4. Kosongkan database setiap ingin analisis loadtesting menggunakan locust
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 26 23" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/3a37626d-d97d-4dde-a21d-30466444792c">
+
 
 ## Hasil Pengujian Setiap Endpoint
 
