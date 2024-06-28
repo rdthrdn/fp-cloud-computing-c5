@@ -68,16 +68,16 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 3. ⁠Buat mongo database bernama db-mongodb
 3. ⁠Buat 1 load balancer, koneksikan dengan 3 droplet yang telah dibuat
 ### Langkah-langkah untuk droplet frontend-01
-1. SSH ke droplet frontend-01 
-2. ⁠Sudo apt-get update
-3. ⁠Sudo apt-get install apache2 
-4. ⁠Cd /var/www/html, ls 
-5. ⁠Ubah index.html yang ada dengan index.html yang sesuai pada github
-6. Di index.html, ubah localhost:5000 menjadi IPAddressBackend-03:5000
-7. ⁠Tambahkan styles.css yang sesuai pada github
-8. Tampilan frontend dapat diakses melalui IP address frontend-01 atau IP address load-balancer
+1. ⁠Ssh ke droplet frontend-01 
+2.⁠ ⁠⁠Sudo apt-get update
+3.⁠ ⁠⁠Sudo apt-get install apache2 
+4.⁠ ⁠⁠Cd /var/www/html, ls 
+5.⁠ ⁠⁠Download index.html dan styles.css yang terdapat pada github
+6.⁠ ⁠Di index.html, ubah localhost:5000 analyze menjadi IPAddressBackend-02:5000 dan localhost:5000 history menjadi IPAddressBackend-02:5000
+7.⁠ ⁠⁠systemctl restart apache2 untuk restart servicenya
+8.⁠ ⁠Tampilan frontend dapat diakses melalui IP address frontend-01 atau IP address load-balancer
 ### Langkah-langkah untuk droplet backend-02
-1. SSH ke droplet backend-03
+1. SSH ke droplet backend-02
 2. ⁠Sudo apt-get update
 3. ⁠Sudo apt-get install python 3
 4. ⁠Install dependencies :
