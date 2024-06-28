@@ -57,8 +57,9 @@ Sebelum kami menggunakan Digital Ocean, kami sebenarnya memutuskan untuk menggun
 Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang paling ramah pemula, serta jika terhubung dengan Github Education kami bisa mendapat credit gratis. Selain itu, untuk troubleshooting jika ada masalah lebih mudah karena komunitasnya lebih ramah untuk pemula dan mudah dipahami.
 
 **Berikut adalah rancangan arsitektur yang akan kami buat:**
-
+![Group 78](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/599f7661-658e-4852-b595-9b8f0433006c)
 **Harga perkiraan yang akan kami pakai adalah seperti berikut:**
+<img width="1440" alt="Screenshot 2024-06-28 at 22 26 49" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/389a5612-e49a-4173-b311-2704e0df7a48">
 
 ## Langkah-Langkah Pengerjaan
 ### Resources yang dibutuhkan
