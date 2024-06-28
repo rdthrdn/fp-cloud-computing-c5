@@ -1,4 +1,4 @@
-# Final Project
+<img width="1024" alt="Screenshot 2024-06-29 at 00 04 39" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/18f6c175-6ccd-4a15-82c9-67e5ad6817d9"># Final Project
 ## Teknologi Komputasi Awan
 ### Kelompok C5
 |Nama|NRP |
@@ -129,17 +129,12 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 ## Hasil Pengujian Setiap Endpoint
 
 ### Pengujian dengan Thunder Client
-
-1. Get All History
-
-
-
-2. Create a New Text
-
-
-
+1. Get History
+   <img width="1024" alt="Screenshot 2024-06-29 at 00 04 39" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/52e0d6f1-1d96-4992-8301-73148194df2b">
+2. Post Analyze
+   <img width="1017" alt="Screenshot 2024-06-29 at 00 04 46" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/56f85e28-7af6-486a-a755-9d55085ac817">
 ### Pengujian dari Web
-
+<img width="1440" alt="Screenshot 2024-06-29 at 00 02 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/5e5693bc-e3cf-4a1f-8fa6-41bd87f452e5">
 
 
 
