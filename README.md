@@ -68,7 +68,7 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
    2. buat 1 droplet yang bernama backend
       <img width="1440" alt="Screenshot 2024-06-28 at 22 50 47" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/05f3b5e7-2282-4bc9-ae4d-aa6bd0c12381">
    3. buat mongo database bernama db-mongodb
-      <img width="1440" alt="Screenshot 2024-06-28 at 23 00 13" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/15fd58bd-6ee5-4a14-bf3c-dafa7f2821b4">
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 09 31" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6a979d8d-9ea4-487d-bc4e-3fc256153d05">
    4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP)
       <img width="1440" alt="Screenshot 2024-06-28 at 23 05 46" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/da6d0b4d-bd26-4f57-b480-0fdd5fa2a3f8">
 ### Langkah-langkah untuk droplet frontend
@@ -121,7 +121,7 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
        1. ```wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py```
       <img width="1440" alt="Screenshot 2024-06-28 at 23 48 56" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/053b5d3f-25d5-475c-b4c1-740f7b8eee1c">
    6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
-      <img width="1440" alt="Screenshot 2024-06-28 at 23 50 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/9b4aaa9f-b083-400a-96c5-ea28fe3a9031">
+      <img width="1440" alt="Screenshot 2024-06-29 at 02 14 51" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b1ee43c3-99eb-425b-b9bb-1332caa98166">
    7. run dengan command ```python3 sentiment-analysis.py``` atau bisa juga run secara daemon dengan command ```gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app```, lalu ```ps aux | grep gunicorn``` untuk melihat apakah sudah running atau belum
       <img width="1440" alt="Screenshot 2024-06-29 at 00 54 07" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/1b63c1ec-aab7-4568-b6d7-44d329757ab3">
    8. akses ke IP Address load balancer
