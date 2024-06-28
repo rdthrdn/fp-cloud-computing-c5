@@ -1,4 +1,4 @@
-<img width="1024" alt="Screenshot 2024-06-29 at 00 04 39" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/18f6c175-6ccd-4a15-82c9-67e5ad6817d9"># Final Project
+# Final Project
 ## Teknologi Komputasi Awan
 ### Kelompok C5
 |Nama|NRP |
