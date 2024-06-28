@@ -122,8 +122,8 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
       <img width="1440" alt="Screenshot 2024-06-28 at 23 48 56" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/053b5d3f-25d5-475c-b4c1-740f7b8eee1c">
    6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
       <img width="1440" alt="Screenshot 2024-06-28 at 23 50 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/9b4aaa9f-b083-400a-96c5-ea28fe3a9031">
-   7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app
-      <img width="707" alt="Screenshot 2024-06-29 at 00 00 45" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/5347f847-6ec3-4b6d-ab93-6c878e195c67">
+   7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app, lalu ps aux | grep gunicorn untuk melihat apakah sudah running atau belum
+      <img width="1440" alt="Screenshot 2024-06-29 at 00 54 07" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/1b63c1ec-aab7-4568-b6d7-44d329757ab3">
    8. akses ke IP Address load balancer
 
 ## Hasil Pengujian Setiap Endpoint
