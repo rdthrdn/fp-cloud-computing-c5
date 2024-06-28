@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-06-28 at 23 42 28" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/aea49bf4-5f44-44d7-88e7-fcf9700b6eb2"># Final Project
+<img width="707" alt="Screenshot 2024-06-29 at 00 00 45" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/8cb879b9-f350-4592-9c1b-fcd0a406ede9"><img width="1440" alt="Screenshot 2024-06-29 at 00 00 45" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/a9fabe44-067c-4a98-aa2d-97f6c57ccbe2"><img width="1440" alt="Screenshot 2024-06-28 at 23 42 28" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/aea49bf4-5f44-44d7-88e7-fcf9700b6eb2"># Final Project
 ## Teknologi Komputasi Awan
 ### Kelompok C5
 |Nama|NRP |
@@ -119,8 +119,11 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
           <img width="1440" alt="Screenshot 2024-06-28 at 23 45 34" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b240dfa5-f8a2-4334-b7da-77556f0d113c">
    5. tambahkan file sentiment-analysis.py sesuai pada github 
        1. wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py
+      <img width="1440" alt="Screenshot 2024-06-28 at 23 48 56" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/053b5d3f-25d5-475c-b4c1-740f7b8eee1c">
    6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
+      <img width="1440" alt="Screenshot 2024-06-28 at 23 50 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/9b4aaa9f-b083-400a-96c5-ea28fe3a9031">
    7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app
+      <img width="707" alt="Screenshot 2024-06-29 at 00 00 45" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/5347f847-6ec3-4b6d-ab93-6c878e195c67">
    8. akses ke IP Address load balancer
 
 ## Hasil Pengujian Setiap Endpoint
