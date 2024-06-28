@@ -83,7 +83,6 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 
 - RPS Maksimum (load testing 60 detik)
 
-> **RPS Maksimum yang kami dapati dari beberapa stress test locust adalah 149 RPS, didapatkan ketika di test dengan menggunakan spawn rate 500 dengan Peak Concurrency Maksimum sebesar 2000 User**
 
 - Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
 
