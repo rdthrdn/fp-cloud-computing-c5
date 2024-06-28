@@ -98,31 +98,31 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
        <img width="1440" alt="Screenshot 2024-06-28 at 23 23 15" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/e5007799-ec5b-4016-a5bc-eb2fffa50aec">
 
 ### Langkah-langkah untuk droplet backend
-   1. ssh ke droplet backend-02
+   1. ```ssh ke droplet backend-02```
       <img width="1440" alt="Screenshot 2024-06-28 at 23 34 14" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/4fb6c81c-9749-42f2-8d6e-92776efbd48f">
-   2. sudo apt-get update
+   2. ```sudo apt-get update```
       <img width="1440" alt="Screenshot 2024-06-28 at 23 34 31" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/7697f9ef-1349-4d03-867c-0618bfe0ecbb">
-   3. sudo apt-get install python3
+   3. ```sudo apt-get install python3```
       <img width="1440" alt="Screenshot 2024-06-28 at 23 41 36" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/2ebb90f4-44b4-470e-943b-e52bd981e016">
    4. install dependencies :
-       1. sudo apt-get install python3-pip
+       1. ```sudo apt-get install python3-pip```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 42 28" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/d78771d0-02b4-4bad-b888-17c15fd8c434">
-       2. pip install flask
+       2. ```pip install flask```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 43 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/fef0ede7-d6fa-45a5-9392-d6d7b3145461">
-       3. pip install flask_cors
+       3. ```pip install flask_cors```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 43 53" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/998444d9-2f96-44d8-bc29-378005d2bc7d">
-       4. pip install textblob
+       4. ```pip install textblob```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 44 30" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6591579e-0e1e-4fae-8612-920980f08a0e">
-       5. pip install pymongo
+       5. ```pip install pymongo```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 45 06" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/77e3f7e7-cebf-45b8-aed6-ccf3c604fad9">
-       6. pip install gunicorn
+       6. ```pip install gunicorn```
           <img width="1440" alt="Screenshot 2024-06-28 at 23 45 34" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b240dfa5-f8a2-4334-b7da-77556f0d113c">
    5. tambahkan file sentiment-analysis.py sesuai pada github 
-       1. wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py
+       1. ```wget -O sentiment-analysis.py https://raw.githubusercontent.com/fuaddary/fp-tka/main/Resources/BE/sentiment-analysis.py```
       <img width="1440" alt="Screenshot 2024-06-28 at 23 48 56" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/053b5d3f-25d5-475c-b4c1-740f7b8eee1c">
    6. ubah client pada file tersebut menjadi link database pada connection details db-mongodb
       <img width="1440" alt="Screenshot 2024-06-28 at 23 50 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/9b4aaa9f-b083-400a-96c5-ea28fe3a9031">
-   7. run dengan command python3 sentiment-analysis.py atau bisa juga run secara daemon dengan command gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app, lalu ps aux | grep gunicorn untuk melihat apakah sudah running atau belum
+   7. run dengan command ```python3 sentiment-analysis.py``` atau bisa juga run secara daemon dengan command ```gunicorn -b 0.0.0.0:80 -w 4 -D sentiment-analysis:app```, lalu ```ps aux | grep gunicorn``` untuk melihat apakah sudah running atau belum
       <img width="1440" alt="Screenshot 2024-06-29 at 00 54 07" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/1b63c1ec-aab7-4568-b6d7-44d329757ab3">
    8. akses ke IP Address load balancer
 
