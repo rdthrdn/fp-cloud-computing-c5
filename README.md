@@ -52,3 +52,57 @@ Kemudian juga disediakan sebuah Frontend sederhana menggunakan [index.html](/Res
 Kemudian anda diminta untuk mendesain arsitektur cloud yang sesuai dengan kebutuhan aplikasi tersebut. Apabila dana maksimal yang diberikan adalah **1 juta rupiah per bulan (65 US$)**
 konfigurasi cloud terbaik seperti apa yang bisa dibuat?
 ## Rancangan Arsitektur dan Tabel Harga Spesifikasi VM
+Sebelum kami menggunakan Digital Ocean, kami sebenarnya memutuskan untuk menggunakan Google Cloud Platform. Namun, karena terjadi kendala saat pengujian endpoint yang membutuhkan izin firewall yang kami masih belum bisa troubleshoot, kami memutuskan untuk berpindah platform cloud ke Digital Ocean.
+
+Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang paling ramah pemula, serta jika terhubung dengan Github Education kami bisa mendapat credit gratis. Selain itu, untuk troubleshooting jika ada masalah lebih mudah karena komunitasnya lebih ramah untuk pemula dan mudah dipahami.
+
+**Berikut adalah rancangan arsitektur yang akan kami buat:**
+
+
+**Harga perkiraan yang akan kami pakai adalah seperti berikut:**
+
+## Hasil Pengujian Setiap Endpoint
+
+### Pengujian dengan Thunder Client
+
+1. Get All History
+
+
+
+2. Create a New Text
+
+
+
+### Pengujian dari Web
+
+
+
+
+
+## Hasil Pengujian dan Analisis Loadtesting Locust
+
+- RPS Maksimum (load testing 60 detik)
+
+> **RPS Maksimum yang kami dapati dari beberapa stress test locust adalah 149 RPS, didapatkan ketika di test dengan menggunakan spawn rate 500 dengan Peak Concurrency Maksimum sebesar 2000 User**
+
+- Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
+
+
+
+- Peak Concurrency Maksimum (spawn rate 100, load testing 60 detik)
+
+
+
+- Peak Concurrency Maksimum (spawn rate 200, load testing 60 detik)
+
+
+
+- Peak Concurrency Maksimum (spawn rate 500, load testing 60 detik)
+
+
+
+## Kesimpulan dan Saran
+
+
+
+
