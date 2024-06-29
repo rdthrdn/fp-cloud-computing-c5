@@ -173,23 +173,23 @@ Diakses menggunakan ip salah satu droplet
 
 - RPS Maksimum (load testing 60 detik)
   RPS maksimum 348/200 x 30 = 52,2
-   ![WhatsApp Image 2024-06-29 at 20 08 16](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6a0a3d5d-a06d-4488-81d7-e645b1846a4f)
+   
 
 
 - Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
-   ![WhatsApp Image 2024-06-29 at 20 08 15](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/ade84ed6-a2f9-4716-979b-cd124d7f29be)
+   ![WhatsApp Image 2024-06-29 at 23 15 20](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/adc6992e-b50f-4cca-8bfd-d4d677be039e)
 
 
 - Peak Concurrency Maksimum (spawn rate 100, load testing 60 detik)
-   ![WhatsApp Image 2024-06-29 at 20 08 16](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/0a3e785a-ad59-4ecb-866c-d98ee69eab57)
+   ![WhatsApp Image 2024-06-29 at 23 13 11](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/773178b4-b159-47c4-971b-85440e8db569)
 
 
 - Peak Concurrency Maksimum (spawn rate 200, load testing 60 detik)
-   ![WhatsApp Image 2024-06-29 at 20 08 17](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/3b7e7f39-c1df-48dc-896e-8ae909e11972)
+   ![WhatsApp Image 2024-06-29 at 23 11 08](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/c561f391-8284-4d76-8df8-1d7d63c0a8ef)
 
 
 - Peak Concurrency Maksimum (spawn rate 500, load testing 60 detik)
-   ![WhatsApp Image 2024-06-29 at 20 08 18](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/45bdba4e-927a-4356-88eb-ab52fe6f8d2f)
+   ![WhatsApp Image 2024-06-29 at 23 19 55](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/2aef6401-b5cd-4ad3-b22c-3ddd2784a2f8)
 
 
 
