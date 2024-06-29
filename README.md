@@ -169,6 +169,8 @@ Diakses menggunakan ip salah satu droplet
 ## Hasil Pengujian dan Analisis Loadtesting Locust
 
 - RPS Maksimum (load testing 60 detik)
+  RPS maksimum 348/200 x 30 = 52,2
+   ![WhatsApp Image 2024-06-29 at 20 08 16](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6a0a3d5d-a06d-4488-81d7-e645b1846a4f)
 
 
 - Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
