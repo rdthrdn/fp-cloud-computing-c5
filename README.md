@@ -175,16 +175,16 @@ Diakses menggunakan ip salah satu droplet
   RPS maksimum 312.3/200 x 30 = 46,845
   ![WhatsApp Image 2024-06-29 at 23 15 20](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/bf59708c-c74a-46cb-936d-e9470fb9ed9b)
 
-- Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
+- Peak Concurrency 1000 (spawn rate 50, load testing 60 detik)
    ![WhatsApp Image 2024-06-29 at 23 15 20](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/adc6992e-b50f-4cca-8bfd-d4d677be039e)
 
-- Peak Concurrency Maksimum (spawn rate 100, load testing 60 detik)
+- Peak Concurrency 1000 (spawn rate 100, load testing 60 detik)
    ![WhatsApp Image 2024-06-29 at 23 13 11](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/773178b4-b159-47c4-971b-85440e8db569)
 
-- Peak Concurrency Maksimum (spawn rate 200, load testing 60 detik)
+- Peak Concurrency 1000 (spawn rate 200, load testing 60 detik)
    ![WhatsApp Image 2024-06-29 at 23 11 08](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/c561f391-8284-4d76-8df8-1d7d63c0a8ef)
 
-- Peak Concurrency Maksimum (spawn rate 500, load testing 60 detik)
+- Peak Concurrency 1000 (spawn rate 500, load testing 60 detik)
    ![WhatsApp Image 2024-06-29 at 23 19 55](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/2aef6401-b5cd-4ad3-b22c-3ddd2784a2f8)
 
 
