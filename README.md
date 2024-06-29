@@ -193,8 +193,33 @@ Diakses menggunakan ip salah satu droplet
 
 
 
-## Kesimpulan dan Saran
+## Kesimpulan
+Kesimpulan :
 
+Berdasarkan hasil pengujian yang dilakukan terhadap sistem sentiment analysis, terdapat beberapa temuan kunci yang menunjukkan bahwa performa dan stabilitas sistem masih memerlukan perbaikan signifikan. Berikut adalah poin-poin utama dari pengujian kami:
+
+Responsivitas yang Rendah:
+Sistem kami menunjukkan waktu respon yang cukup tinggi selama pengujian, dengan waktu respon rata-rata mencapai 2 detik pada beban normal, dan meningkat hingga 5 detik atau lebih pada beban puncak (4000 peak concurrency). Hal ini menunjukkan bahwa sistem tidak mampu merespons permintaan dengan cepat ketika jumlah pengguna meningkat.
+
+Stabilitas yang Kurang:
+Selama pengujian load testing menggunakan Locust, kami menemukan bahwa sistem mengalami beberapa kali crash ketika mencapai beban puncak. Ini menunjukkan bahwa ada masalah stabilitas yang perlu segera diatasi untuk memastikan sistem tetap berfungsi dengan baik di bawah beban tinggi.
+
+Kemampuan Skalabilitas yang Terbatas:
+Sistem tidak menunjukkan kemampuan skalabilitas yang baik, dengan performa yang menurun drastis ketika jumlah pengguna meningkat. Ini mengindikasikan bahwa arsitektur saat ini belum optimal untuk menangani peningkatan jumlah pengguna secara efektif.
+
+Penggunaan Sumber Daya yang Tinggi:
+Penggunaan CPU dan RAM meningkat secara signifikan selama pengujian beban, menunjukkan bahwa sistem saat ini tidak efisien dalam mengelola sumber daya. Hal ini bisa menyebabkan server mengalami kelebihan beban dan akhirnya menurunkan performa secara keseluruhan.
+
+## Saran
+
+Berdasarkan temuan di atas, kami merekomendasikan beberapa langkah perbaikan sebagai berikut:
+
+Optimasi Kode dan Query: Lakukan optimasi pada kode backend dan query database untuk mengurangi waktu respon dan meningkatkan efisiensi.
+Implementasi Caching: Pertimbangkan untuk menggunakan caching pada beberapa bagian sistem untuk mengurangi beban pada server dan mempercepat waktu respon.
+Peningkatan Arsitektur: Evaluasi kembali arsitektur sistem dan pertimbangkan untuk menggunakan solusi skalabilitas seperti load balancer dan microservices untuk meningkatkan kemampuan sistem dalam menangani beban tinggi.
+Pengujian Berkelanjutan: Lakukan pengujian berkelanjutan dan iteratif untuk mengidentifikasi dan mengatasi masalah stabilitas sebelum sistem digunakan secara luas.
+Pemantauan dan Logging: Implementasikan pemantauan dan logging yang lebih baik untuk mendeteksi dan mendiagnosa masalah performa secara real-time.
+Dengan mengikuti rekomendasi di atas, kami berharap sistem sentiment analysis dapat ditingkatkan performa dan skalabilitasnya, sehingga mampu memberikan pengalaman pengguna yang lebih baik dan memenuhi kebutuhan beban tinggi di masa mendatang.
 
 
 
