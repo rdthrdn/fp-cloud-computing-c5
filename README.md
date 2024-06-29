@@ -154,9 +154,10 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 
 ### Pengujian dengan Thunder Client
 1. Get History
-   <img width="1024" alt="Screenshot 2024-06-29 at 00 04 39" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/52e0d6f1-1d96-4992-8301-73148194df2b">
+   <img width="1024" alt="Screenshot 2024-06-29 at 19 20 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/4c0de8e1-a3bb-4dbf-b471-2193bd95ff14">
 2. Post Analyze
-   <img width="1017" alt="Screenshot 2024-06-29 at 00 04 46" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/56f85e28-7af6-486a-a755-9d55085ac817">
+   <img width="1030" alt="Screenshot 2024-06-29 at 19 20 01" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/64a00670-d233-41f2-a959-efd818549e80">
+   
 ### Pengujian dari Web
 <img width="1440" alt="Screenshot 2024-06-29 at 00 02 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/5e5693bc-e3cf-4a1f-8fa6-41bd87f452e5">
 
