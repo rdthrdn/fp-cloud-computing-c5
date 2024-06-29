@@ -59,7 +59,8 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 **Berikut adalah rancangan arsitektur yang akan kami buat:**
 ![Group 79 (1)](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/e91949e8-023e-48fb-af20-24b7694b1e68)
 **Harga perkiraan yang akan kami pakai adalah seperti berikut:**
-<img width="1440" alt="Screenshot 2024-06-28 at 22 26 49" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/389a5612-e49a-4173-b311-2704e0df7a48">
+<img width="1440" alt="Screenshot 2024-06-29 at 18 56 16" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/0532190e-b2ae-4908-86dd-24ba28d1f898">
+
 
 ## Langkah-Langkah Pengerjaan
 ### Resources yang dibutuhkan
