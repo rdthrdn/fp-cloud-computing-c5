@@ -7,6 +7,9 @@
 |Fiorenza|50272310|
 |Harwinda|50272310|
 |Nayyara Ashila|50272210|
+
+## Video Revisi
+https://youtu.be/qYH7urZCgAI?si=sfflgmcht8fYszhZ
 ## Permasalahan
 Anda adalah seorang lulusan Teknologi Informasi, sebagai ahli IT, salah satu kemampuan yang harus dimiliki adalah Keampuan merancang, membangun, mengelola aplikasi berbasis komputer menggunakan layanan awan untuk memenuhi kebutuhan organisasi.
 
