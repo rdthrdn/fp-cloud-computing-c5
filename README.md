@@ -63,16 +63,19 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 
 ## Langkah-Langkah Pengerjaan
 ### Resources yang dibutuhkan
-   1. buat 1 droplet yang bernama frontend
-      <img width="1440" alt="Screenshot 2024-06-28 at 22 51 03" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/51287f25-dbf4-4733-8ecc-54351c21250c">
-   2. buat 1 droplet yang bernama backend
-      <img width="1440" alt="Screenshot 2024-06-28 at 22 50 47" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/fa937753-afa2-46ad-ac8a-b7b2704d2fb5">
+   1. buat 1 droplet yang bernama worker-01
+      <img width="1440" alt="Screenshot 2024-06-29 at 17 32 10" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/a210027e-4853-436c-8eb7-b7e6b4f44554">
+   2. buat 1 droplet yang bernama worker-02
+      <img width="1440" alt="Screenshot 2024-06-29 at 17 32 21" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/b0daf327-287b-4394-b658-7c1598d6e491">
    3. buat mongo database bernama db-mongodb
-      <img width="1440" alt="Screenshot 2024-06-29 at 02 09 31" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6a979d8d-9ea4-487d-bc4e-3fc256153d05">
-   4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP. sambungkan load balancer dengan kedua droplet
-      <img width="1440" alt="Screenshot 2024-06-28 at 23 05 46" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/da6d0b4d-bd26-4f57-b480-0fdd5fa2a3f8">
-### Langkah-langkah untuk droplet frontend
-   1. ssh ke droplet frontend
+      <img width="1440" alt="Screenshot 2024-06-29 at 17 31 31" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/971b810b-f1e1-40d0-a9cf-d0017d79ee58">
+   4. buat 1 droplet yang dijadikan load-balancer
+      <img width="1440" alt="Screenshot 2024-06-29 at 17 30 44" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/1ff7e98e-2d50-46ef-8e12-a8e1cc113bb5">
+### Langkah-langkah
+   * Tiap satu droplet worker akan bekerja sebagai frontend sekaligus backend
+
+   * Langkah-langkah untuk frontend
+   1. ssh ke droplet 
       <img width="1440" alt="Screenshot 2024-06-28 at 23 11 08" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/98170e73-6314-4e7a-b3d4-840bb2feca2c">
    2. ``sudo apt-get update``
       <img width="1440" alt="Screenshot 2024-06-28 at 23 11 36" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/466319e8-6168-4c67-a41a-e3992fdec7fc">
@@ -97,7 +100,7 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
    13. tampilan frontend dapat diakses melalui IP address frontend-01 atau IP address load-balancer
        <img width="1440" alt="Screenshot 2024-06-28 at 23 23 15" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/e5007799-ec5b-4016-a5bc-eb2fffa50aec">
 
-### Langkah-langkah untuk droplet backend
+   * Langkah-langkah untuk droplet backend
    1. ssh ke droplet backend
       <img width="1440" alt="Screenshot 2024-06-28 at 23 34 14" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/4fb6c81c-9749-42f2-8d6e-92776efbd48f">
    2. ```sudo apt-get update```
