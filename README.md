@@ -169,15 +169,12 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 
 
 - Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
-
-
+  ![WhatsApp Image 2024-06-29 at 18 56 16](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/9215a37a-0f09-45e9-96c3-ef62c069a945)
 
 - Peak Concurrency Maksimum (spawn rate 100, load testing 60 detik)
 
 
-
 - Peak Concurrency Maksimum (spawn rate 200, load testing 60 detik)
-
 
 
 - Peak Concurrency Maksimum (spawn rate 500, load testing 60 detik)
