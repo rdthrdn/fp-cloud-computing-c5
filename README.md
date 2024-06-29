@@ -57,19 +57,19 @@ Sebelum kami menggunakan Digital Ocean, kami sebenarnya memutuskan untuk menggun
 Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang paling ramah pemula, serta jika terhubung dengan Github Education kami bisa mendapat credit gratis. Selain itu, untuk troubleshooting jika ada masalah lebih mudah karena komunitasnya lebih ramah untuk pemula dan mudah dipahami.
 
 **Berikut adalah rancangan arsitektur yang akan kami buat:**
-![Group 78](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/599f7661-658e-4852-b595-9b8f0433006c)
+![Group 79 (1)](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/0c5c152d-c481-4d1f-8a34-8833a584234d)
 **Harga perkiraan yang akan kami pakai adalah seperti berikut:**
 <img width="1440" alt="Screenshot 2024-06-28 at 22 26 49" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/389a5612-e49a-4173-b311-2704e0df7a48">
 
 ## Langkah-Langkah Pengerjaan
 ### Resources yang dibutuhkan
-   1. buat 1 droplet yang bernama frontend
-      <img width="1440" alt="Screenshot 2024-06-28 at 22 51 03" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/2944cd96-7b4d-45c9-b5f4-b1d723a517f1">
-   2. buat 1 droplet yang bernama backend
-      <img width="1440" alt="Screenshot 2024-06-28 at 22 50 47" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/05f3b5e7-2282-4bc9-ae4d-aa6bd0c12381">
+   1. buat 1 droplet yang bernama worker-01
+      
+   2. buat 1 droplet yang bernama worker-02
+      
    3. buat mongo database bernama db-mongodb
       <img width="1440" alt="Screenshot 2024-06-29 at 02 09 31" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/6a979d8d-9ea4-487d-bc4e-3fc256153d05">
-   4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP)
+   4. buat 1 load balancer, pastikan saat membuat loadbalancer, health-check diganti menjadi TCP. sambungkan load balancer dengan kedua droplet
       <img width="1440" alt="Screenshot 2024-06-28 at 23 05 46" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/da6d0b4d-bd26-4f57-b480-0fdd5fa2a3f8">
 ### Langkah-langkah untuk droplet frontend
    1. ssh ke droplet frontend
