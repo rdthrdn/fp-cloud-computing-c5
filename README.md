@@ -4,9 +4,9 @@
 |Nama|NRP |
 |--|--|
 |Raditya Hardian Santoso|5027231033|
-|Fiorenza|50272310|
-|Harwinda|50272310|
-|Nayyara Ashila|50272210|
+|Fiorenza|5027231053|
+|Harwinda|5027231079|
+|Nayyara Ashila|5027221083|
 
 ## Video Revisi
 https://youtu.be/qYH7urZCgAI?si=sfflgmcht8fYszhZ
