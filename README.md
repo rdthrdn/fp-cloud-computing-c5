@@ -172,15 +172,19 @@ Diakses menggunakan ip salah satu droplet
 
 
 - Peak Concurrency Maksimum (spawn rate 50, load testing 60 detik)
+   ![WhatsApp Image 2024-06-29 at 20 08 15](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/ade84ed6-a2f9-4716-979b-cd124d7f29be)
 
 
 - Peak Concurrency Maksimum (spawn rate 100, load testing 60 detik)
+   ![WhatsApp Image 2024-06-29 at 20 08 16](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/0a3e785a-ad59-4ecb-866c-d98ee69eab57)
 
 
 - Peak Concurrency Maksimum (spawn rate 200, load testing 60 detik)
+   ![WhatsApp Image 2024-06-29 at 20 08 17](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/3b7e7f39-c1df-48dc-896e-8ae909e11972)
 
 
 - Peak Concurrency Maksimum (spawn rate 500, load testing 60 detik)
+   ![WhatsApp Image 2024-06-29 at 20 08 18](https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/45bdba4e-927a-4356-88eb-ab52fe6f8d2f)
 
 
 
