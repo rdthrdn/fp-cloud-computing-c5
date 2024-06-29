@@ -153,13 +153,15 @@ Kenapa kami memilih Digital Ocean? Karena untuk UI dan UX, Digital Ocean yang pa
 ## Hasil Pengujian Setiap Endpoint
 
 ### Pengujian dengan Thunder Client
+Diakses menggunakan ip salah satu droplet
 1. Get History
    <img width="1024" alt="Screenshot 2024-06-29 at 19 20 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/4c0de8e1-a3bb-4dbf-b471-2193bd95ff14">
 2. Post Analyze
    <img width="1030" alt="Screenshot 2024-06-29 at 19 20 01" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/64a00670-d233-41f2-a959-efd818549e80">
    
 ### Pengujian dari Web
-<img width="1440" alt="Screenshot 2024-06-29 at 00 02 22" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/5e5693bc-e3cf-4a1f-8fa6-41bd87f452e5">
+Diakses menggunakan ip salah satu droplet
+<img width="1440" alt="Screenshot 2024-06-29 at 19 41 59" src="https://github.com/rdthrdn/fp-cloud-computing-c5/assets/147926732/dd589d96-4546-4291-b4f7-5bfc0da4b1df">
 
 
 
